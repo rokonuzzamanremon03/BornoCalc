@@ -41,10 +41,10 @@
 
 BornoCalc uses a custom JavaScript mapping system to handle Bengali numbers.
 
-	- ​**0-99:** Mapped directly to their unique Bengali names.
-	- **​100+:** Uses a recursive function to break down numbers into Shoto (Hundred), Hajar (Thousand), Lokkho (Lakh), and Koti (Crore).
-	- **​Decimals:** Splits the number at the decimal point and processes the integer and fractional parts separately for accurate linguistic representation.
-
+- **0-99:** Mapped directly to their unique Bengali names.
+- **100+:** Uses a recursive function to break down numbers into Shoto (Hundred), Hajar (Thousand), Lokkho (Lakh), and Koti (Crore).
+- **Decimals:** - Splits the number at the decimal point and processes the integer and fractional parts separately for accurate linguistic representation.
+	
 ## ​📱 Mobile Responsiveness
 ​The application is fully responsive and prevents double-tap zooming, ensuring an "App-like" feel on smartphones.
 
