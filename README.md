@@ -31,7 +31,7 @@
 
 1. Clone the repository:
    ```bash
-   git clone [https://github.com/your-username/BornoCalc.git](https://github.com/your-username/BornoCalc.git)
+   git clone [https://github.com/rokonuzzamanremon03/BornoCalc.git](https://github.com/rokonuzzamanremon03/BornoCalc.git)
 2. Navigate to the project folder:
 			```bash
 			cd BornoCalc
