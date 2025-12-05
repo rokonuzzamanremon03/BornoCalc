@@ -50,3 +50,6 @@ BornoCalc uses a custom JavaScript mapping system to handle Bengali numbers.
 
 ## ​👨‍💻 Author
 **​Rokon Uz Zaman Remon** Aspiring Future Tech & AI Enthusiast.
+
+---
+*Created with ❤️ for Bengali users.*
