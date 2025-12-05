@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="bn">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no">
+    <title>আল্টিমেট বাংলা ক্যালকুলেটর</title>
+    <link href="https://fonts.googleapis.com/css2?family=Hind+Siliguri:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="calculator">
+        <div class="header">
+            <span style="font-weight:700; color:#2d3436;">বাংলা ক্যালকুলেটর</span>
+            <div class="switch-container">
+                <span class="switch-label">কথায়</span>
+                <label class="switch">
+                    <input type="checkbox" id="modeToggle">
+                    <span class="slider"></span>
+                </label>
+            </div>
+        </div>
+
+        <div class="screen">
+            <div class="prev-text" id="prevDisplay"></div>
+            <div class="curr-text" id="currDisplay">০</div>
+        </div>
+
+        <div class="keypad">
+            <button class="ac-btn" data-key="AC">AC</button>
+            <button class="del-btn" data-key="DEL">⌫</button>
+            <button class="op-btn" data-key="%">%</button>
+            <button class="op-btn" data-key="/">÷</button>
+
+            <button data-key="7">৭</button>
+            <button data-key="8">৮</button>
+            <button data-key="9">৯</button>
+            <button class="op-btn" data-key="*">×</button>
+
+            <button data-key="4">৪</button>
+            <button data-key="5">৫</button>
+            <button data-key="6">৬</button>
+            <button class="op-btn" data-key="-">-</button>
+
+            <button data-key="1">১</button>
+            <button data-key="2">২</button>
+            <button data-key="3">৩</button>
+            <button class="op-btn" data-key="+">+</button>
+
+            <button data-key=".">.</button>
+            <button data-key="0">০</button>
+            <button class="eq-btn" data-key="=">=</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
